@@ -1,24 +1,21 @@
+#pragma once
 
-using namespace std;
-
-class Verkaeufer : public Mitarbeiter {
-
+class Verkaeufer : public Mitarbeiter
+{
 public:
-	Verkaeufer(std::string name)
-		:Mitarbeiter(name)
+	explicit Verkaeufer(const std::string& name)
+		: Mitarbeiter(name)
 	{
 	}
 
 	bool bearbeitenAnfrage(const std::string& anfrage) const override
 	{
-		if (anfrage == "Preis") {
-			cout << name_ + " sagt: Preis ist 99.99" << endl ;
+		if (anfrage == "Preis")
+		{
+			std::cout << name_ + " sagt: Preis ist 99.99" << std::endl;
 			return true;
 		}
 
 		return false;
-
 	}
-
-
 };

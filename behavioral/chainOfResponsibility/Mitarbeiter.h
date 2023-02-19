@@ -1,13 +1,12 @@
 #pragma once
 
-class Mitarbeiter {
-
+class Mitarbeiter
+{
 public:
-
 	std::string name_;
 
-	Mitarbeiter(const std::string& name) {
-
+	explicit Mitarbeiter(const std::string& name)
+	{
 		name_ = name;
 	}
 

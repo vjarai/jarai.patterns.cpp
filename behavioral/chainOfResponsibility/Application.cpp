@@ -1,11 +1,10 @@
-
 #include "Firma.h"
 #include "Putzfrau.h"
 #include "Buchhalter.h"
 #include "Verkaeufer.h"
 
-int main() {
-
+int main()
+{
 	Firma meineFirma("ABC GmbH");
 
 	Putzfrau putzfrau("Putzfrau Schulz");
