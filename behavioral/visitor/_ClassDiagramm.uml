@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-177.29032258064535" y="104.00000000000003">jarai.patterns.gof.behavioral.visitor.GutachterVisitor</node>
+    <node x="-1000.6236559139787" y="95.06451612903226">jarai.patterns.gof.behavioral.visitor.Lkw</node>
+    <node x="-863.0107526881724" y="-22.35483870967738">jarai.patterns.gof.behavioral.visitor.IVisitable</node>
+    <node x="-255.79032258064535" y="-25.99999999999997">jarai.patterns.gof.behavioral.visitor.Visitor</node>
+    <node x="-754.0430107526882" y="95.06451612903226">jarai.patterns.gof.behavioral.visitor.Bus</node>
+    <node x="-364.29032258064535" y="104.00000000000003">jarai.patterns.gof.behavioral.visitor.ReinigungsVisitor</node>
+    <node x="-545.1881720430108" y="-64.24193548387098">jarai.patterns.gof.behavioral.visitor.Fuhrpark</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="jarai.patterns.gof.behavioral.visitor.Bus" target="jarai.patterns.gof.behavioral.visitor.IVisitable" relationship="REALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.visitor.Fuhrpark" target="jarai.patterns.gof.behavioral.visitor.Visitor" relationship="DEPENDENCY">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.visitor.Lkw" target="jarai.patterns.gof.behavioral.visitor.IVisitable" relationship="REALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.visitor.GutachterVisitor" target="jarai.patterns.gof.behavioral.visitor.Visitor" relationship="GENERALIZATION">
+      <point x="3.225806453599489E-4" y="-38.0" />
+      <point x="-97.78999999999999" y="77.00000000000003" />
+      <point x="-193.29000000000002" y="77.00000000000003" />
+      <point x="3.225806453315272E-4" y="38.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.visitor.ReinigungsVisitor" target="jarai.patterns.gof.behavioral.visitor.Visitor" relationship="GENERALIZATION">
+      <point x="3.225806453315272E-4" y="-38.0" />
+      <point x="-280.79" y="77.00000000000003" />
+      <point x="-193.29000000000002" y="77.00000000000003" />
+      <point x="3.225806453315272E-4" y="38.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.visitor.Fuhrpark" target="jarai.patterns.gof.behavioral.visitor.IVisitable" relationship="TO_MANY">
+      <point x="-103.0" y="8.387096774193594" />
+      <point x="93.0" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="-406.66666666666663" y="229.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

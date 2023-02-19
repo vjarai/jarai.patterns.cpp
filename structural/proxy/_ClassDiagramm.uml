@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="251.5" y="120.5">jarai.patterns.gof.structural.proxy.CachingDatasourceProxy</node>
+    <node x="326.16666666666663" y="-57.5">jarai.patterns.gof.structural.proxy.Datasource</node>
+    <node x="-114.83333333333337" y="-37.0">jarai.patterns.gof.structural.proxy.NotAuthorizedException</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="jarai.patterns.gof.structural.proxy.CachingDatasourceProxy" target="jarai.patterns.gof.structural.proxy.Datasource" relationship="GENERALIZATION">
+      <point x="38.16666666666666" y="-49.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.proxy.CachingDatasourceProxy" target="jarai.patterns.gof.structural.proxy.NotAuthorizedException" relationship="CREATE">
+      <point x="-107.0" y="-49.5" />
+      <point x="259.0" y="23.25" />
+      <point x="48.99999999999997" y="23.25" />
+      <point x="58.33333333333334" y="14.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.proxy.CachingDatasourceProxy" target="jarai.patterns.gof.structural.proxy.Datasource" relationship="TO_ONE">
+      <point x="53.16666666666666" y="-49.5" />
+      <point x="15.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="512.3333333333334" y="141.0" />
+  <SelectedNodes>
+    <node>jarai.patterns.gof.structural.proxy.NotAuthorizedException</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

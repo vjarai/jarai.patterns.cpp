@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="349.33333333333337" y="22.333333333333343">jarai.patterns.gof.behavioral.templateMethod.Anwendung</node>
+    <node x="241.25" y="318.6666666666667">jarai.patterns.gof.behavioral.templateMethod.GuiAnwendung</node>
+    <node x="426.5" y="535.3333333333333">jarai.patterns.gof.behavioral.templateMethod.Application</node>
+    <node x="443.25" y="318.6666666666667">jarai.patterns.gof.behavioral.templateMethod.ConsolenAnwendung</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="jarai.patterns.gof.behavioral.templateMethod.GuiAnwendung" target="jarai.patterns.gof.behavioral.templateMethod.Anwendung" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.0" />
+      <point x="332.25" y="113.5" />
+      <point x="445.83299999999997" y="113.5" />
+      <point x="-3.3333333337282056E-4" y="82.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.templateMethod.Application" target="jarai.patterns.gof.behavioral.templateMethod.Anwendung" relationship="DEPENDENCY">
+      <point x="0.0" y="-27.0" />
+      <point x="502.0" y="246.5" />
+      <point x="245.0" y="246.5" />
+      <point x="245.0" y="279.5" />
+      <point x="316.75" y="279.5" />
+      <point x="316.75" y="104.83333333333334" />
+      <point x="96.49966666666663" y="0.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.templateMethod.ConsolenAnwendung" target="jarai.patterns.gof.behavioral.templateMethod.Anwendung" relationship="GENERALIZATION">
+      <point x="-2.8421709430404007E-14" y="-38.0" />
+      <point x="540.25" y="113.5" />
+      <point x="445.83299999999997" y="113.5" />
+      <point x="-3.3333333337282056E-4" y="82.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.templateMethod.Application" target="jarai.patterns.gof.behavioral.templateMethod.ConsolenAnwendung" relationship="CREATE">
+      <point x="-15.0" y="-27.0" />
+      <point x="487.0" y="246.0" />
+      <point x="475.0" y="246.0" />
+      <point x="-65.25000000000003" y="38.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.templateMethod.Anwendung" target="jarai.patterns.gof.behavioral.templateMethod.Anwendung" relationship="DEPENDENCY">
+      <point x="96.49966666666663" y="0.0" />
+      <point x="304.75" y="104.83333333333334" />
+      <point x="304.75" y="104.83333333333334" />
+      <point x="96.49966666666663" y="0.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.templateMethod.Application" target="jarai.patterns.gof.behavioral.templateMethod.GuiAnwendung" relationship="CREATE">
+      <point x="-74.25" y="-27.0" />
+      <point x="427.75" y="246.0" />
+      <point x="415.75" y="246.0" />
+      <point x="83.5" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="578.3333333333334" y="325.0" />
+  <SelectedNodes>
+    <node>jarai.patterns.gof.behavioral.templateMethod.Application</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

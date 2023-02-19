@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-333.0" y="77.5">jarai.patterns.gof.structural.composite.Baugruppe</node>
+    <node x="-63.52450980392149" y="77.5">jarai.patterns.gof.structural.composite.Festplatte</node>
+    <node x="-317.9656862745097" y="-140.16666666666669">jarai.patterns.gof.structural.composite.Bauteil</node>
+    <node x="82.80882352941188" y="77.5">jarai.patterns.gof.structural.composite.Ram</node>
+    <node x="239.1421568627453" y="77.5">jarai.patterns.gof.structural.composite.Prozessor</node>
+    <node x="-229.16666666666677" y="235.83333333333337">jarai.patterns.gof.structural.composite.Mutterplatine</node>
+    <node x="-416.83333333333326" y="235.83333333333337">jarai.patterns.gof.structural.composite.Computer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="jarai.patterns.gof.structural.composite.Computer" target="jarai.patterns.gof.structural.composite.Baugruppe" relationship="GENERALIZATION">
+      <point x="3.33333333230712E-4" y="-38.50033333333337" />
+      <point x="-350.333" y="207.0" />
+      <point x="-232.5" y="207.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.composite.Mutterplatine" target="jarai.patterns.gof.structural.composite.Baugruppe" relationship="GENERALIZATION">
+      <point x="-3.33333333230712E-4" y="-38.50033333333337" />
+      <point x="-158.167" y="207.0" />
+      <point x="-232.5" y="207.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.composite.Baugruppe" target="jarai.patterns.gof.structural.composite.Bauteil" relationship="TO_MANY">
+      <point x="0.0" y="-49.5" />
+      <point x="18.96568627450972" y="38.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.composite.Ram" target="jarai.patterns.gof.structural.composite.Bauteil" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="149.30882352941188" y="-116.667" />
+      <point x="66.5" y="-15.000333333333316" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.composite.Festplatte" target="jarai.patterns.gof.structural.composite.Bauteil" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="2.9754901960785105" y="-86.667" />
+      <point x="66.5" y="14.999666666666684" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.composite.Prozessor" target="jarai.patterns.gof.structural.composite.Bauteil" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="305.6421568627453" y="-131.667" />
+      <point x="66.5" y="-30.000333333333316" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.composite.Baugruppe" target="jarai.patterns.gof.structural.composite.Bauteil" relationship="GENERALIZATION">
+      <point x="-18.96568627450972" y="-49.5" />
+      <point x="0.0" y="38.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="57.0" y="102.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-285.83834272739307" y="438.57721639656813">jarai.patterns.gof.creational.builder.Director</node>
+    <node x="204.6381428143926" y="235.44280266920873">jarai.patterns.gof.creational.builder.Manual</node>
+    <node x="498.7500000000001" y="147.0">jarai.patterns.gof.creational.builder.GPSNavigator</node>
+    <node x="525.5222950814614" y="309.60486177311736">jarai.patterns.gof.creational.builder.Car</node>
+    <node x="304.7500000000001" y="136.0">jarai.patterns.gof.creational.builder.CarType</node>
+    <node x="657.2265372168284" y="-92.5">jarai.patterns.gof.creational.builder.Engine</node>
+    <node x="62.0" y="136.0">jarai.patterns.gof.creational.builder.Transmission</node>
+    <node x="300.5681748066428" y="692.3007626310772">jarai.patterns.gof.creational.builder.CarManualBuilder</node>
+    <node x="189.01917761097798" y="452.06720686367964">jarai.patterns.gof.creational.builder.Builder</node>
+    <node x="-19.55132334385337" y="692.3007626310772">jarai.patterns.gof.creational.builder.CarBuilder</node>
+    <node x="662.7500000000001" y="124.5">jarai.patterns.gof.creational.builder.TripComputer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="jarai.patterns.gof.creational.builder.CarBuilder" target="jarai.patterns.gof.creational.builder.Builder" relationship="REALIZATION">
+      <point x="0.0" y="-93.0" />
+      <point x="80.44867665614663" y="534.0672068636796" />
+      <point x="-100.0" y="0.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.creational.builder.CarManualBuilder" target="jarai.patterns.gof.creational.builder.Builder" relationship="REALIZATION">
+      <point x="67.06422653721691" y="-93.0" />
+      <point x="467.63240134385967" y="604.0672068636796" />
+      <point x="-99.99955987055026" y="70.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0345167652859961" showDependencies="false" x="909.6034318398474" y="599.8331744518589" />
+  <SelectedNodes>
+    <node>jarai.patterns.gof.creational.builder.CarBuilder</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

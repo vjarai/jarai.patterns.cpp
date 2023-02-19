@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-106.86363636363637" y="-39.0">jarai.patterns.gof.structural.adapter.Printer</node>
+    <node x="92.5" y="67.0">jarai.patterns.gof.structural.adapter.PdfCreatorToPrinterAdapter</node>
+    <node x="-117.5" y="78.5">jarai.patterns.gof.structural.adapter.Report</node>
+    <node x="163.8181818181818" y="-39.0">jarai.patterns.gof.structural.adapter.PdfCreator</node>
+    <node x="18.5" y="196.0">jarai.patterns.gof.structural.adapter.Application</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="jarai.patterns.gof.structural.adapter.PdfCreatorToPrinterAdapter" target="jarai.patterns.gof.structural.adapter.Printer" relationship="GENERALIZATION">
+      <point x="-64.18181818181819" y="-38.5" />
+      <point x="146.3181818181818" y="-12.0" />
+      <point x="86.5" y="0.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.adapter.PdfCreatorToPrinterAdapter" target="jarai.patterns.gof.structural.adapter.PdfCreator" relationship="TO_ONE">
+      <point x="36.31818181818181" y="-38.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.adapter.Application" target="jarai.patterns.gof.structural.adapter.Report" relationship="CREATE">
+      <point x="-29.0" y="-27.0" />
+      <point x="87.5" y="27.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.adapter.Application" target="jarai.patterns.gof.structural.adapter.Printer" relationship="CREATE">
+      <point x="-75.5" y="0.0" />
+      <point x="-135.0" y="223.0" />
+      <point x="-135.0" y="-12.0" />
+      <point x="-86.5" y="0.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.adapter.Application" target="jarai.patterns.gof.structural.adapter.PdfCreator" relationship="CREATE">
+      <point x="75.5" y="0.0" />
+      <point x="347.3181818181818" y="223.0" />
+      <point x="347.3181818181818" y="-12.0" />
+      <point x="83.0" y="0.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.adapter.Application" target="jarai.patterns.gof.structural.adapter.PdfCreatorToPrinterAdapter" relationship="CREATE">
+      <point x="6.0" y="-27.0" />
+      <point x="-110.5" y="38.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.adapter.Report" target="jarai.patterns.gof.structural.adapter.Printer" relationship="DEPENDENCY">
+      <point x="2.136363636363626" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="116.15909090909099" y="115.50000000000004" />
+  <SelectedNodes>
+    <node>jarai.patterns.gof.structural.adapter.Application</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

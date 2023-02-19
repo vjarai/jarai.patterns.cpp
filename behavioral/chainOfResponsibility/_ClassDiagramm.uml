@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="426.1666666666665" y="110.66666666666669">jarai.patterns.gof.behavioral.chainOfResponsibility.Mitarbeiter</node>
+    <node x="410.1527777777776" y="299.6666666666667">jarai.patterns.gof.behavioral.chainOfResponsibility.Application</node>
+    <node x="370.6666666666665" y="193.66666666666669">jarai.patterns.gof.behavioral.chainOfResponsibility.Verkaeufer</node>
+    <node x="245.66666666666652" y="206.16666666666669">jarai.patterns.gof.behavioral.chainOfResponsibility.Putzfrau</node>
+    <node x="624.6666666666665" y="193.66666666666669">jarai.patterns.gof.behavioral.chainOfResponsibility.Buchhalter</node>
+    <node x="946.1666666666665" y="110.66666666666669">jarai.patterns.gof.behavioral.chainOfResponsibility.Firma</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="jarai.patterns.gof.behavioral.chainOfResponsibility.Application" target="jarai.patterns.gof.behavioral.chainOfResponsibility.Buchhalter" relationship="CREATE">
+      <point x="75.5" y="0.0" />
+      <point x="741.6666666666665" y="326.6666666666667" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.chainOfResponsibility.Putzfrau" target="jarai.patterns.gof.behavioral.chainOfResponsibility.Mitarbeiter" relationship="GENERALIZATION">
+      <point x="-49.666666666666515" y="-26.999666666666684" />
+      <point x="313.0" y="157.5" />
+      <point x="-116.99966666666654" y="8.333333333333314" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.chainOfResponsibility.Application" target="jarai.patterns.gof.behavioral.chainOfResponsibility.Verkaeufer" relationship="CREATE">
+      <point x="11.513888888888914" y="-27.0" />
+      <point x="9.5" y="27.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.chainOfResponsibility.Firma" target="jarai.patterns.gof.behavioral.chainOfResponsibility.Mitarbeiter" relationship="TO_MANY">
+      <point x="-117.0" y="-22.0" />
+      <point x="117.0" y="0.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.chainOfResponsibility.Application" target="jarai.patterns.gof.behavioral.chainOfResponsibility.Firma" relationship="CREATE">
+      <point x="75.5" y="15.0" />
+      <point x="1063.1666666666665" y="341.6666666666667" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.chainOfResponsibility.Verkaeufer" target="jarai.patterns.gof.behavioral.chainOfResponsibility.Mitarbeiter" relationship="GENERALIZATION">
+      <point x="-109.49966666666654" y="-26.999666666666684" />
+      <point x="378.167" y="157.5" />
+      <point x="-116.99966666666654" y="8.333333333333314" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.chainOfResponsibility.Application" target="jarai.patterns.gof.behavioral.chainOfResponsibility.Putzfrau" relationship="CREATE">
+      <point x="-13.486111111111086" y="-27.0" />
+      <point x="109.5" y="27.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.chainOfResponsibility.Buchhalter" target="jarai.patterns.gof.behavioral.chainOfResponsibility.Mitarbeiter" relationship="GENERALIZATION">
+      <point x="3.333333335149291E-4" y="-26.999666666666684" />
+      <point x="741.667" y="93.167" />
+      <point x="313.0" y="93.167" />
+      <point x="313.0" y="157.5" />
+      <point x="-116.99966666666654" y="8.333333333333314" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="725.3333333333334" y="253.33333333333334" />
+  <SelectedNodes>
+    <node>jarai.patterns.gof.behavioral.chainOfResponsibility.Application</node>
+    <node>jarai.patterns.gof.behavioral.chainOfResponsibility.Firma</node>
+    <node>jarai.patterns.gof.behavioral.chainOfResponsibility.Mitarbeiter</node>
+    <node>jarai.patterns.gof.behavioral.chainOfResponsibility.Verkaeufer</node>
+    <node>jarai.patterns.gof.behavioral.chainOfResponsibility.Putzfrau</node>
+    <node>jarai.patterns.gof.behavioral.chainOfResponsibility.Buchhalter</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="260.1666666666667" y="148.0">jarai.patterns.gof.structural.bridge.InformationForm</node>
+    <node x="491.2608695652173" y="148.0">jarai.patterns.gof.structural.bridge.CrossScreenLayout</node>
+    <node x="706.5942028985507" y="148.0">jarai.patterns.gof.structural.bridge.StarScreenLayout</node>
+    <node x="130.83333333333337" y="3.333333333333343">jarai.patterns.gof.structural.bridge.Form</node>
+    <node x="587.6666666666667" y="3.333333333333343">jarai.patterns.gof.structural.bridge.ScreenLayout</node>
+    <node x="23.833333333333314" y="148.0">jarai.patterns.gof.structural.bridge.GreetingForm</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="jarai.patterns.gof.structural.bridge.InformationForm" target="jarai.patterns.gof.structural.bridge.Form" relationship="GENERALIZATION">
+      <point x="3.3333333328755543E-4" y="-27.0" />
+      <point x="341.667" y="114.0" />
+      <point x="222.333" y="114.0" />
+      <point x="-3.3333333337282056E-4" y="37.999666666666656" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.bridge.StarScreenLayout" target="jarai.patterns.gof.structural.bridge.ScreenLayout" relationship="REALIZATION">
+      <point x="-83.5002028985507" y="0.0" />
+      <point x="688.0" y="197.0" />
+      <point x="688.0" y="130.5" />
+      <point x="714.094" y="130.5" />
+      <point x="45.42733333333331" y="48.999666666666656" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.bridge.Form" target="jarai.patterns.gof.structural.bridge.ScreenLayout" relationship="TO_ONE">
+      <point x="91.5" y="11.0" />
+      <point x="-81.0" y="0.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.bridge.CrossScreenLayout" target="jarai.patterns.gof.structural.bridge.ScreenLayout" relationship="REALIZATION">
+      <point x="88.0001304347827" y="0.0" />
+      <point x="688.0" y="197.0" />
+      <point x="688.0" y="130.5" />
+      <point x="714.094" y="130.5" />
+      <point x="45.42733333333331" y="48.999666666666656" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.bridge.GreetingForm" target="jarai.patterns.gof.structural.bridge.Form" relationship="GENERALIZATION">
+      <point x="-3.3333333331597714E-4" y="-27.0" />
+      <point x="95.333" y="114.0" />
+      <point x="222.333" y="114.0" />
+      <point x="-3.3333333337282056E-4" y="37.999666666666656" />
+    </edge>
+    <edge source="jarai.patterns.gof.structural.bridge.GreetingForm" target="jarai.patterns.gof.structural.bridge.ScreenLayout" relationship="DEPENDENCY">
+      <point x="14.999666666666684" y="-27.0" />
+      <point x="110.333" y="131.0" />
+      <point x="668.667" y="131.0" />
+      <point x="3.3333333328755543E-4" y="48.999666666666656" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="490.5" y="172.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

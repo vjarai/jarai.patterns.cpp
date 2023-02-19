@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-106.33333333333337" y="-50.0">jarai.patterns.gof.behavioral.iterator.IterableContainer</node>
+    <node x="-304.83333333333337" y="-61.0">jarai.patterns.gof.behavioral.iterator.IterableContainer.Iterator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="jarai.patterns.gof.behavioral.iterator.IterableContainer.Iterator" target="jarai.patterns.gof.behavioral.iterator.IterableContainer" relationship="INNER_CLASS">
+      <point x="75.0" y="15.0" />
+      <point x="-96.5" y="15.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.iterator.IterableContainer" target="jarai.patterns.gof.behavioral.iterator.IterableContainer.Iterator" relationship="CREATE">
+      <point x="-96.5" y="0.0" />
+      <point x="75.0" y="0.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.iterator.IterableContainer.Iterator" target="jarai.patterns.gof.behavioral.iterator.IterableContainer.Iterator" relationship="DEPENDENCY">
+      <point x="0.0" y="-61.0" />
+      <point x="-229.83333333333337" y="-78.5" />
+      <point x="-2.0" y="-78.5" />
+      <point x="-2.0" y="-15.0" />
+      <point x="75.0" y="-15.0" />
+    </edge>
+  </edges>
+  <settings layout="Channel" zoom="1.5" showDependencies="true" x="36.25" y="10.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

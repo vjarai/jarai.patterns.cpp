@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-91.11111111111109" y="-84.83333333333334">jarai.patterns.gof.behavioral.command.Befehl</node>
+    <node x="-392.5" y="-73.33333333333334">jarai.patterns.gof.behavioral.command.Roboter</node>
+    <node x="-218.66666666666669" y="64.0">jarai.patterns.gof.behavioral.command.HebeArm</node>
+    <node x="7.333333333333371" y="64.0">jarai.patterns.gof.behavioral.command.SenkeArm</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="jarai.patterns.gof.behavioral.command.HebeArm" target="jarai.patterns.gof.behavioral.command.Roboter" relationship="DEPENDENCY">
+      <point x="-99.00033333333332" y="0.0" />
+      <point x="-237.0" y="102.0" />
+      <point x="-237.0" y="-35.333" />
+      <point x="68.5" y="3.3333333334439885E-4" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.command.HebeArm" target="jarai.patterns.gof.behavioral.command.Befehl" relationship="GENERALIZATION">
+      <point x="-3.3333333331597714E-4" y="-38.0" />
+      <point x="-119.667" y="12.0" />
+      <point x="-7.111000000000001" y="12.0" />
+      <point x="-14.999888888888915" y="38.000333333333344" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.command.SenkeArm" target="jarai.patterns.gof.behavioral.command.Befehl" relationship="GENERALIZATION">
+      <point x="14.999666666666627" y="-38.0" />
+      <point x="121.333" y="12.0" />
+      <point x="-7.111000000000001" y="12.0" />
+      <point x="-14.999888888888915" y="38.000333333333344" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.command.SenkeArm" target="jarai.patterns.gof.behavioral.command.Roboter" relationship="DEPENDENCY">
+      <point x="-3.3333333337282056E-4" y="-38.0" />
+      <point x="106.333" y="34.0" />
+      <point x="-237.0" y="34.0" />
+      <point x="-237.0" y="-35.333" />
+      <point x="68.5" y="3.3333333334439885E-4" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="-83.5" y="37.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

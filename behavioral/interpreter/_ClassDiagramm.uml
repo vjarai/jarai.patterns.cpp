@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="357.95835033170715" y="323.1127959876555">jarai.patterns.gof.behavioral.interpreter.ThousandExpression</node>
+    <node x="118.13382529544006" y="313.8702159352787">jarai.patterns.gof.behavioral.interpreter.HundredExpression</node>
+    <node x="220.60450972216375" y="88.97323217575627">jarai.patterns.gof.behavioral.interpreter.Expression</node>
+    <node x="17.61915961187858" y="132.00924976759083">jarai.patterns.gof.behavioral.interpreter.Context</node>
+    <node x="604.4700744566533" y="210.41153248084316">jarai.patterns.gof.behavioral.interpreter.TenExpression</node>
+    <node x="-92.10178298080669" y="266.170462098929">jarai.patterns.gof.behavioral.interpreter.OneExpression</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="jarai.patterns.gof.behavioral.interpreter.HundredExpression" target="jarai.patterns.gof.behavioral.interpreter.Expression" relationship="GENERALIZATION">
+      <point x="1.7470455992452116E-4" y="-71.00021593527867" />
+      <point x="207.634" y="284.0" />
+      <point x="306.105" y="284.0" />
+      <point x="4.902778362350091E-4" y="81.99976782424375" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.interpreter.ThousandExpression" target="jarai.patterns.gof.behavioral.interpreter.Expression" relationship="GENERALIZATION">
+      <point x="-3.503317071249512E-4" y="-70.99979598765549" />
+      <point x="450.958" y="284.0" />
+      <point x="306.105" y="284.0" />
+      <point x="4.902778362350091E-4" y="81.99976782424375" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.interpreter.Expression" target="jarai.patterns.gof.behavioral.interpreter.Expression" relationship="DEPENDENCY">
+      <point x="0.0" y="-82.0" />
+      <point x="306.10450972216375" y="71.47323217575627" />
+      <point x="611.9700744566533" y="71.47323217575627" />
+      <point x="611.9700744566533" y="170.97323217575627" />
+      <point x="85.5" y="0.0" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.interpreter.OneExpression" target="jarai.patterns.gof.behavioral.interpreter.Expression" relationship="GENERALIZATION">
+      <point x="74.99978298080669" y="-4.6209892900606064E-4" />
+      <point x="100.634" y="337.17" />
+      <point x="100.634" y="284.0" />
+      <point x="306.105" y="284.0" />
+      <point x="4.902778362350091E-4" y="81.99976782424375" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.interpreter.TenExpression" target="jarai.patterns.gof.behavioral.interpreter.Expression" relationship="GENERALIZATION">
+      <point x="-73.00007445665324" y="49.201467519156836" />
+      <point x="561.4580000000001" y="330.613" />
+      <point x="561.4580000000001" y="284.0" />
+      <point x="306.105" y="284.0" />
+      <point x="4.902778362350091E-4" y="81.99976782424375" />
+    </edge>
+    <edge source="jarai.patterns.gof.behavioral.interpreter.Expression" target="jarai.patterns.gof.behavioral.interpreter.Context" relationship="DEPENDENCY">
+      <point x="-85.5" y="-24.463982408165435" />
+      <point x="51.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="491.5" y="178.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
