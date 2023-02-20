@@ -1,12 +1,12 @@
 package jarai.patterns.gof.structural.facade;
 
 public class Amplifier {
-    string _description;
+    std::string _description;
     Tuner _tuner;
     DvdPlayer _dvd;
     CdPlayer _cd;
 
-    public Amplifier(string description) {
+    public Amplifier(std::string description) {
         _description = description;
     }
 
@@ -45,7 +45,7 @@ public class Amplifier {
         _cd = cd;
     }
 
-    public string tostring() {
+    public std::string tostring() {
         return _description;
     }
 }

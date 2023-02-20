@@ -2,7 +2,7 @@ package jarai.patterns.gof.creational.factoryMethod;
 
 
 public class Stuhl : public Moebel {
-    Stuhl(string bezeichnung, double preis) {
+    Stuhl(std::string bezeichnung, double preis) {
         super(bezeichnung);
     }
 

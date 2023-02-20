@@ -1,10 +1,10 @@
 package jarai.patterns.gof.structural.facade;
 
 public class Projector {
-    string _description;
+    std::string _description;
     DvdPlayer _dvdPlayer;
 
-    public Projector(string description, DvdPlayer dvdPlayer) {
+    public Projector(std::string description, DvdPlayer dvdPlayer) {
         _description = description;
         _dvdPlayer = dvdPlayer;
     }
@@ -25,7 +25,7 @@ public class Projector {
         cout << _description + " in tv mode (4x3 aspect ratio)");
     }
 
-    public string tostring() {
+    public std::string tostring() {
         return _description;
     }
 }

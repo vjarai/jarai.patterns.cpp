@@ -6,5 +6,5 @@ public interface ScreenLayout {
 
     void printDecor();
 
-    void printText(string text);
+    void printText(std::string text);
 }

@@ -5,17 +5,17 @@ import java.util.Hashtable;
 
 public class CachingDatasourceProxy : public Datasource {
 
-    private final Datasource datasource;
-    private final Hashtable<Integer, string> cache = new Hashtable<>();
+    private  Datasource datasource;
+    private  Hashtable<Integer, std::string> cache = new Hashtable<>();
 
     CachingDatasourceProxy(Datasource datasource) {
 
         this.datasource = datasource;
     }
 
-    public string getResult(int key) {
+    public std::string getResult(int key) {
 
-        string result;
+        std::string result;
 
         // Proxy kann Zugriff auf bestimmte Daten einschränken
         if (key <= 100) {

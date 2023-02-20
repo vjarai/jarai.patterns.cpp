@@ -18,7 +18,7 @@ public abstract class Anwendung {
     abstract void ausgebenDaten(int z);
 
     // Die Schablonenmethode definiert einen festen Algorithmus
-    final void schablonenMethode() {
+     void schablonenMethode() {
         einlesenDaten();        // Die Details werden in abgel. Klassen definiert
 
         z = x + y;                // Ergebnis berechnen

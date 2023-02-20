@@ -2,11 +2,11 @@ package jarai.patterns.gof.structural.facade;
 
 
 public class Tuner {
-    string _description;
+    std::string _description;
     Amplifier _amplifier;
     double _frequency;
 
-    public Tuner(string description, Amplifier amplifier) {
+    public Tuner(std::string description, Amplifier amplifier) {
 
         _description = description;
         _amplifier = amplifier;
@@ -33,7 +33,7 @@ public class Tuner {
         cout << _description + " setting FM mode");
     }
 
-    public string tostring() {
+    public std::string tostring() {
         return _description;
     }
 }

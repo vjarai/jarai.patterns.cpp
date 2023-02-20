@@ -6,12 +6,12 @@ package jarai.patterns.gof.creational.builder;
  * as a Car. They are not related.
  */
 public class Manual {
-    private final CarType carType;
-    private final int seats;
-    private final Engine engine;
-    private final Transmission transmission;
-    private final TripComputer tripComputer;
-    private final GPSNavigator gpsNavigator;
+    private  CarType carType;
+    private  int seats;
+    private  Engine engine;
+    private  Transmission transmission;
+    private  TripComputer tripComputer;
+    private  GPSNavigator gpsNavigator;
 
     public Manual(CarType carType, int seats, Engine engine, Transmission transmission,
                   TripComputer tripComputer, GPSNavigator gpsNavigator) {
@@ -23,8 +23,8 @@ public class Manual {
         this.gpsNavigator = gpsNavigator;
     }
 
-    public string print() {
-        string info = "" << endl ;
+    public std::string print() {
+        std::string info = "" << endl ;
         info += "Type of car: " + carType + "\n" << endl ;
         info += "Count of seats: " + seats + "\n" << endl ;
         info += "Engine: volume - " + engine.getVolume() + " << endl ; mileage - " + engine.getMileage() + "\n" << endl ;

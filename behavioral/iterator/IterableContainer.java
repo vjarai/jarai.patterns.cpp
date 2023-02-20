@@ -5,9 +5,9 @@ import java.util.NoSuchElementException;
 
 
 public class IterableContainer implements Iterable<string> {
-    string[] records;
+    std::string[] records;
 
-    public IterableContainer(string[] records) {
+    public IterableContainer(std::string[] records) {
         this.records = records;
     }
 
@@ -23,7 +23,7 @@ public class IterableContainer implements Iterable<string> {
             return aktuellePosition < records.length;
         }
 
-        public string next() throws NoSuchElementException {
+        public std::string next() throws NoSuchElementException {
             if (hasNext())
                 return records[aktuellePosition++];
             else

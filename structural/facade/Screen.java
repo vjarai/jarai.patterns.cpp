@@ -1,9 +1,9 @@
 package jarai.patterns.gof.structural.facade;
 
 public class Screen {
-    string _description;
+    std::string _description;
 
-    public Screen(string description) {
+    public Screen(std::string description) {
         _description = description;
     }
 
@@ -16,7 +16,7 @@ public class Screen {
     }
 
 
-    public string tostring() {
+    public std::string tostring() {
         return _description;
     }
 }

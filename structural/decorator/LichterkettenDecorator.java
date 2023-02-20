@@ -14,7 +14,7 @@ public class LichterkettenDecorator : public WeihnachtsbaumDecorator {
 
     public void show() {
         dekorierterBaum.show();
-        System.out.print(", mit " + (isBurning ? "eingeschalteter" : "ausgeschalteter") + " Lichterkette");
+        std::cout <<", mit " + (isBurning ? "eingeschalteter" : "ausgeschalteter") + " Lichterkette");
     }
 }
 

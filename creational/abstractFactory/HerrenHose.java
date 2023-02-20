@@ -4,7 +4,7 @@ package jarai.patterns.gof.creational.abstractFactory;
 public class HerrenHose : public Hose {
 
 
-    public HerrenHose(string bezeichnung, int groesse) {
+    public HerrenHose(std::string bezeichnung, int groesse) {
         super(bezeichnung, groesse);
     }
 

@@ -12,7 +12,7 @@ public class Application {
         auto myDatasource = proxy;    // Proxy kann statt Datenbank verwendet werden
 
         try {
-            string result = myDatasource.getResult(500);
+            std::string result = myDatasource.getResult(500);
             cout << "Ergebnis: " + result);
 
             // Daten werden beim zweiten Abruf ggf. aus dem Cache geliefert

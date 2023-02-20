@@ -2,7 +2,7 @@ package jarai.patterns.gof.structural.bridge;
 
 public abstract class Form {
 
-    private final ScreenLayout layoutImplementation;
+    private  ScreenLayout layoutImplementation;
 
 
     public Form(ScreenLayout LayoutImplementation) {
@@ -10,13 +10,13 @@ public abstract class Form {
     }
 
 
-    public void drawText(string text) {
+    public void drawText(std::string text) {
         layoutImplementation.printText(text);
         layoutImplementation.printLine();
     }
 
 
-    public void drawTextBox(string text) {
+    public void drawTextBox(std::string text) {
 
         int length = text.length();
 

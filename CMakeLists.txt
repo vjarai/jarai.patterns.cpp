@@ -10,3 +10,4 @@ add_subdirectory ("behavioral\\ChainOfResponsibility")
 add_subdirectory ("behavioral\\state\\pattern")
 
 add_subdirectory ("structural\\adapter")
+add_subdirectory ("structural\\composite")

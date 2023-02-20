@@ -29,7 +29,7 @@ public class HomeTheaterFacade {
         _popper = popper;
     }
 
-    public void WatchMovie(string movie) {
+    public void WatchMovie(std::string movie) {
         cout << "Get ready to watch a movie...");
         _popper.On();
         _popper.Pop();
@@ -58,7 +58,7 @@ public class HomeTheaterFacade {
         _dvd.Off();
     }
 
-    public void ListenToCd(string cdTitle) {
+    public void ListenToCd(std::string cdTitle) {
         cout << "Get ready for an audiopile experence...");
         _lights.On();
         _amp.On();

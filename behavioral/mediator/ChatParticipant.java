@@ -2,20 +2,20 @@ package jarai.patterns.gof.behavioral.mediator;
 
 public class ChatParticipant {
     Chatroom Chatroom;
-    string Name;
+    std::string Name;
 
 
-    public ChatParticipant(string name) {
+    public ChatParticipant(std::string name) {
         this.Name = name;
     }
 
 
-    public void Send(string to, string message) {
+    public void Send(std::string to, std::string message) {
         Chatroom.Send(Name, to, message);
     }
 
 
-    public void Receive(string from, string message) {
+    public void Receive(std::string from, std::string message) {
         System.out.printf("%s to %s: '{%s}'%n", from, Name, message);
     }
 }

@@ -1,7 +1,7 @@
 package jarai.patterns.gof.behavioral.strategy;
 
 public class Schreiner : public Arbeiter {
-    public Schreiner(string name) {
+    public Schreiner(std::string name) {
         super(name);
     }
 

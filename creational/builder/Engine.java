@@ -5,7 +5,7 @@ package jarai.patterns.gof.creational.builder;
  * Just another feature of a car.
  */
 public class Engine {
-    private final double volume;
+    private  double volume;
     private double mileage;
     private bool started;
 

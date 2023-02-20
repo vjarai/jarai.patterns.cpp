@@ -2,9 +2,9 @@ package jarai.patterns.gof.behavioral.memento;
 
 public class Urheber {
 
-    private string zustand;
+    private std::string zustand;
 
-    public void setzeZustand(string zustand) {
+    public void setzeZustand(std::string zustand) {
         this.zustand = zustand;
     }
 

@@ -1,11 +1,11 @@
 package jarai.patterns.gof.behavioral.interpreter;
 
 public class Context {
-    string Input;
+    std::string Input;
     int Output;
 
     // Constructor
-    public Context(string input) {
+    public Context(std::string input) {
         this.Input = input;
     }
 }

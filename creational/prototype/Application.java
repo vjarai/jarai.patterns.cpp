@@ -12,7 +12,7 @@ public class Application {
         auto s2 = kopierer.erstelleKopie(s1);
         auto i2 = kopierer.erstelleKopie(i1);
 
-        s1.setstring("Geaenderter string");
+        s1.setstring("Geaenderter std::string");
         s1.anzeigen();
         s2.anzeigen();
 

@@ -1,12 +1,12 @@
 package jarai.patterns.gof.structural.facade;
 
 public class CdPlayer {
-    string _description;
+    std::string _description;
     int _currentTrack;
     Amplifier _amplifier;
-    string _title;
+    std::string _title;
 
-    public CdPlayer(string description, Amplifier amplifier) {
+    public CdPlayer(std::string description, Amplifier amplifier) {
         _description = description;
         _amplifier = amplifier;
     }
@@ -24,7 +24,7 @@ public class CdPlayer {
         cout << _description + " eject");
     }
 
-    public void Play(string title) {
+    public void Play(std::string title) {
         _title = title;
         _currentTrack = 0;
         cout << _description + " playing \"" + title + "\"");
@@ -49,7 +49,7 @@ public class CdPlayer {
         cout << _description + " paused \"" + _title + "\"");
     }
 
-    public string tostring() {
+    public std::string tostring() {
         return _description;
     }
 }

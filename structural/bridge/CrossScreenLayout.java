@@ -9,11 +9,11 @@ public class CrossScreenLayout implements ScreenLayout {
 
 
     public void printDecor() {
-        System.out.print("X");
+        std::cout <<"X");
     }
 
 
-    public void printText(string text) {
-        System.out.print(text.toUpperCase());
+    public void printText(std::string text) {
+        std::cout <<text.toUpperCase());
     }
 }

@@ -3,7 +3,7 @@ package jarai.patterns.gof.creational.abstractFactory;
 
 public class DamenHemd : public Hemd {
 
-    DamenHemd(string bezeichnung, int kragenweite) {
+    DamenHemd(std::string bezeichnung, int kragenweite) {
         super(bezeichnung, kragenweite);
     }
 

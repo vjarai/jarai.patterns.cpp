@@ -3,7 +3,7 @@ package jarai.patterns.gof.behavioral.mediator;
 import java.util.HashMap;
 
 public class Chatroom {
-    private final HashMap<string, ChatParticipant> _participants = new HashMap<>();
+    private  HashMap<string, ChatParticipant> _participants = new HashMap<>();
 
     public void Register(ChatParticipant chatParticipant) {
         if (!_participants.containsKey(chatParticipant.Name)) {
@@ -13,7 +13,7 @@ public class Chatroom {
         chatParticipant.Chatroom = this;
     }
 
-    public void Send(string from, string to, string message) {
+    public void Send(std::string from, std::string to, std::string message) {
         ChatParticipant chatParticipant = _participants.get(to);
 
         if (chatParticipant != null) {

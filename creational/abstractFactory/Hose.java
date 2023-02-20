@@ -3,10 +3,10 @@ package jarai.patterns.gof.creational.abstractFactory;
 
 public abstract class Hose {
 
-    protected final int groesse;
-    protected final string bezeichnung;
+    protected  int groesse;
+    protected  std::string bezeichnung;
 
-    Hose(string bezeichnung, int groesse) {
+    Hose(std::string bezeichnung, int groesse) {
         this.bezeichnung = bezeichnung;
         this.groesse = groesse;
     }

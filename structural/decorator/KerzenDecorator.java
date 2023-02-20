@@ -13,9 +13,9 @@ public class KerzenDecorator : public WeihnachtsbaumDecorator {
     }
 
     public void show() {
-        System.out.print(" <mit " + (isBurning ? "brennenden" : "NICHT brennenden") + " Kerzen>");
+        std::cout <<" <mit " + (isBurning ? "brennenden" : "NICHT brennenden") + " Kerzen>");
         dekorierterBaum.show();
-        System.out.print("</mit " + (isBurning ? "brennenden" : "NICHT brennenden") + " Kerzen>");
+        std::cout <<"</mit " + (isBurning ? "brennenden" : "NICHT brennenden") + " Kerzen>");
     }
 }
 

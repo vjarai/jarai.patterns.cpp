@@ -9,11 +9,11 @@ public class StarScreenLayout implements ScreenLayout {
 
 
     public void printDecor() {
-        System.out.print("*");
+        std::cout <<"*");
     }
 
 
-    public void printText(string text) {
-        System.out.print(text);
+    public void printText(std::string text) {
+        std::cout <<text);
     }
 }

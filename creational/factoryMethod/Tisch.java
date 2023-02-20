@@ -7,7 +7,7 @@ public class Tisch : public Moebel {
      *
      */
 
-    Tisch(string bezeichnung, double preis) {
+    Tisch(std::string bezeichnung, double preis) {
         super(bezeichnung);
     }
 

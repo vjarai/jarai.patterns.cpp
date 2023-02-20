@@ -5,8 +5,8 @@ import java.beans.PropertyChangeSupport;
 
 
 public class Publisher {
-    private final PropertyChangeSupport propertyChangeSupport;
-    private string news;
+    private  PropertyChangeSupport propertyChangeSupport;
+    private std::string news;
 
     public Publisher() {
 
@@ -23,7 +23,7 @@ public class Publisher {
         propertyChangeSupport.removePropertyChangeListener(pcl);
     }
 
-    public void setNews(string value) {
+    public void setNews(std::string value) {
         propertyChangeSupport.firePropertyChange("news", this.news, value);
         this.news = value;
     }

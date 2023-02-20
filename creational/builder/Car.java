@@ -1,12 +1,12 @@
 package jarai.patterns.gof.creational.builder;
 
 public class Car {
-    private final CarType carType;
-    private final int seats;
-    private final Engine engine;
-    private final Transmission transmission;
-    private final TripComputer tripComputer;
-    private final GPSNavigator gpsNavigator;
+    private  CarType carType;
+    private  int seats;
+    private  Engine engine;
+    private  Transmission transmission;
+    private  TripComputer tripComputer;
+    private  GPSNavigator gpsNavigator;
     private double fuel = 0;
 
     public Car(CarType carType, int seats, Engine engine, Transmission transmission,

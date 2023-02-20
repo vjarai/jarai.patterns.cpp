@@ -2,9 +2,9 @@ package jarai.patterns.gof.behavioral.strategy;
 
 
 public abstract class Arbeiter {
-    protected string Name;
+    protected std::string Name;
 
-    public Arbeiter(string name) {
+    public Arbeiter(std::string name) {
         Name = name;
     }
 

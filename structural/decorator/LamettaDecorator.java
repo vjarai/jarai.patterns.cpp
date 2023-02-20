@@ -8,6 +8,6 @@ public class LamettaDecorator : public WeihnachtsbaumDecorator {
 
     public void show() {
         dekorierterBaum.show();
-        System.out.print(", mit Lametta");
+        std::cout <<", mit Lametta");
     }
 }

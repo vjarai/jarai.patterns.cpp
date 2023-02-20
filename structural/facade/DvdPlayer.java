@@ -1,12 +1,12 @@
 package jarai.patterns.gof.structural.facade;
 
 public class DvdPlayer {
-    string _description;
+    std::string _description;
     int _currentTrack;
     Amplifier _amplifier;
-    string _movie;
+    std::string _movie;
 
-    public DvdPlayer(string description, Amplifier amplifier) {
+    public DvdPlayer(std::string description, Amplifier amplifier) {
         _description = description;
         _amplifier = amplifier;
     }
@@ -24,7 +24,7 @@ public class DvdPlayer {
         cout << _description + " eject");
     }
 
-    public void Play(string movie) {
+    public void Play(std::string movie) {
         _movie = movie;
         _currentTrack = 0;
         cout << _description + " playing \"" + movie + "\"");
@@ -56,7 +56,7 @@ public class DvdPlayer {
         cout << _description + " set surround audio");
     }
 
-    public string tostring() {
+    public std::string tostring() {
         return _description;
     }
 }

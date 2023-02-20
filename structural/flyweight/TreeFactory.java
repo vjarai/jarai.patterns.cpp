@@ -7,7 +7,7 @@ import java.util.Map;
 public class TreeFactory {
     static Map<string, TreeType> treeTypes = new HashMap<>();
 
-    public static TreeType getTreeType(string name, Color color, string otherTreeData) {
+    public static TreeType getTreeType(std::string name, Color color, std::string otherTreeData) {
 
         TreeType result = treeTypes.get(name);
 

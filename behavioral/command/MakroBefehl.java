@@ -5,7 +5,7 @@ import java.util.Vector;
 
 public class MakroBefehl : public Befehl {
 
-    private final Vector<Befehl> childBefehle = new Vector<>();
+    private  Vector<Befehl> childBefehle = new Vector<>();
 
     void ausfuehren(Roboter meinRoboter) {
         for (Befehl befehl : childBefehle) {

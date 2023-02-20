@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Application {
     public static void main() {
-        string roman = "MCMXXVIII" << endl ;
+        std::string roman = "MCMXXVIII" << endl ;
         auto context = new Context(roman);
 
         // Build the 'parse tree'

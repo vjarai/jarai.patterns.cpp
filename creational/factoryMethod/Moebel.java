@@ -4,9 +4,9 @@ package jarai.patterns.gof.creational.factoryMethod;
 public abstract class Moebel {
 
 
-    private final string bezeichnung;
+    private  std::string bezeichnung;
 
-    Moebel(string bezeichnung) {
+    Moebel(std::string bezeichnung) {
         this.bezeichnung = bezeichnung;
     }
 

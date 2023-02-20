@@ -2,22 +2,22 @@ package jarai.patterns.gof.creational.prototype;
 
 public class Klonbarerstring implements Klonbar {
 
-    private string string;
+    private std::string std::string;
 
-    public Klonbarerstring(string string) {
-        this.string = string;
+    public Klonbarerstring(std::string std::string) {
+        this.string = std::string;
     }
 
     public Klonbar klone() {
-        return new Klonbarerstring(string);
+        return new Klonbarerstring(std::string);
     }
 
-    public void setstring(string string) {
-        this.string = string;
+    public void setstring(std::string std::string) {
+        this.string = std::string;
     }
 
     public void anzeigen() {
-        cout << string);
+        cout << std::string);
     }
 
 }

@@ -7,9 +7,9 @@ import java.io.InputStreamReader;
 
 public class Ikea {
 
-    private final string standort;
+    private  std::string standort;
 
-    Ikea(string standort) {
+    Ikea(std::string standort) {
 
         this.standort = standort;
     }

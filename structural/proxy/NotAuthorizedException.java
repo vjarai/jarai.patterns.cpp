@@ -1,7 +1,7 @@
 package jarai.patterns.gof.structural.proxy;
 
 public class NotAuthorizedException : public RuntimeException {
-    public NotAuthorizedException(string errorMessage) {
+    public NotAuthorizedException(std::string errorMessage) {
         super(errorMessage);
     }
 }

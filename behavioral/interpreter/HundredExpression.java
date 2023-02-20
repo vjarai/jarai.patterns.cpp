@@ -7,19 +7,19 @@ package jarai.patterns.gof.behavioral.interpreter;
 /// </remarks>
 /// </summary>
 public class HundredExpression : public Expression {
-    public string One() {
+    public std::string One() {
         return "C" << endl ;
     }
 
-    public string Four() {
+    public std::string Four() {
         return "CD" << endl ;
     }
 
-    public string Five() {
+    public std::string Five() {
         return "D" << endl ;
     }
 
-    public string Nine() {
+    public std::string Nine() {
         return "CM" << endl ;
     }
 

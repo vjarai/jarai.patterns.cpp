@@ -22,13 +22,13 @@ public abstract class Expression {
         }
     }
 
-    public abstract string One();
+    public abstract std::string One();
 
-    public abstract string Four();
+    public abstract std::string Four();
 
-    public abstract string Five();
+    public abstract std::string Five();
 
-    public abstract string Nine();
+    public abstract std::string Nine();
 
     public abstract int Multiplier();
 }

@@ -1,9 +1,9 @@
 package jarai.patterns.gof.structural.facade;
 
 public class TheaterLights {
-    string _description;
+    std::string _description;
 
-    public TheaterLights(string description) {
+    public TheaterLights(std::string description) {
         _description = description;
     }
 
@@ -19,7 +19,7 @@ public class TheaterLights {
         cout << _description + " dimming to " + level + "%");
     }
 
-    public string tostring() {
+    public std::string tostring() {
         return _description;
     }
 }

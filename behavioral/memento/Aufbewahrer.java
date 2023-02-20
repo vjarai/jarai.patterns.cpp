@@ -4,9 +4,9 @@ import java.util.Vector;
 
 public class Aufbewahrer {
 
-    private final Vector<Memento> mementos = new Vector<>();
+    private  Vector<Memento> mementos = new Vector<>();
 
-    private final Urheber urheber;
+    private  Urheber urheber;
 
     Aufbewahrer(Urheber urheber) {
         this.urheber = urheber;

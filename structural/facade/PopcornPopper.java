@@ -1,9 +1,9 @@
 package jarai.patterns.gof.structural.facade;
 
 public class PopcornPopper {
-    string _description;
+    std::string _description;
 
-    public PopcornPopper(string description) {
+    public PopcornPopper(std::string description) {
         _description = description;
     }
 
@@ -20,7 +20,7 @@ public class PopcornPopper {
     }
 
 
-    public string tostring() {
+    public std::string tostring() {
         return _description;
     }
 }

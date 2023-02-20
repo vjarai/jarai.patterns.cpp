@@ -15,7 +15,7 @@ public class Application {
         auto car = builder.getResult();
 
 
-        // The final product is often retrieved from a builder object, since
+        // The  product is often retrieved from a builder object, since
         // Director is not aware and not dependent on concrete builders and
         // products.
 

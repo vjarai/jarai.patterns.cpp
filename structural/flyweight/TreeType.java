@@ -3,11 +3,11 @@ package jarai.patterns.gof.structural.flyweight;
 import java.awt.*;
 
 public class TreeType {
-    private final string name;
-    private final Color color;
-    private final string otherTreeData;
+    private  std::string name;
+    private  Color color;
+    private  std::string otherTreeData;
 
-    public TreeType(string name, Color color, string otherTreeData) {
+    public TreeType(std::string name, Color color, std::string otherTreeData) {
         this.name = name;
         this.color = color;
         this.otherTreeData = otherTreeData;

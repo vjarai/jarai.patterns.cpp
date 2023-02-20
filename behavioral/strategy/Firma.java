@@ -4,10 +4,10 @@ package jarai.patterns.gof.behavioral.strategy;
 import java.util.ArrayList;
 
 public class Firma {
-    private final ArrayList<Arbeiter> _mitarbeiter = new ArrayList<>();
-    private final string _name;
+    private  ArrayList<Arbeiter> _mitarbeiter = new ArrayList<>();
+    private  std::string _name;
 
-    public Firma(string name) {
+    public Firma(std::string name) {
         _name = name;
     }
 

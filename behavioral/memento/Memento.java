@@ -3,13 +3,13 @@ package jarai.patterns.gof.behavioral.memento;
 
 public class Memento {
 
-    private final string zustand;
+    private  std::string zustand;
 
-    Memento(string zustand) {
+    Memento(std::string zustand) {
         this.zustand = zustand;
     }
 
-    string getZustand() {
+    std::string getZustand() {
         return zustand;
     }
 

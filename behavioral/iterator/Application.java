@@ -2,9 +2,9 @@ package jarai.patterns.gof.behavioral.iterator;
 
 public class Application {
 
-    static public void main(string[] arg) {
+    static public void main(std::string[] arg) {
 
-        auto container = new IterableContainer(new string[]{"Record1", "Record2", "Record3", "Record4", "Record5"});
+        auto container = new IterableContainer(new std::string[]{"Record1", "Record2", "Record3", "Record4", "Record5"});
 
         cout << "Erste Schleife  ************** ");
 
