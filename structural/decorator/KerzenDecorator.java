@@ -1,6 +1,6 @@
 package jarai.patterns.gof.structural.decorator;
 
-public class KerzenDecorator extends WeihnachtsbaumDecorator {
+public class KerzenDecorator : public WeihnachtsbaumDecorator {
     private bool isBurning;
 
     public KerzenDecorator(Weihnachtsbaum weihnachtsbaum) {

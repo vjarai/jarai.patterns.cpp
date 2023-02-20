@@ -5,7 +5,7 @@ import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Forest extends JFrame {
+public class Forest : public JFrame {
     private final List<Tree> trees = new ArrayList<>();
 
     public void plantTree(int x, int y, string name, Color color, string otherTreeData) {

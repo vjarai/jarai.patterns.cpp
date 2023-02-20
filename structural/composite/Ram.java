@@ -1,7 +1,7 @@
 package jarai.patterns.gof.structural.composite;
 
 
-public class Ram extends Bauteil {
+public class Ram : public Bauteil {
 
     private final int megabytes;
 

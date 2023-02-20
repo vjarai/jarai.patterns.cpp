@@ -1,7 +1,7 @@
 package jarai.patterns.gof.creational.abstractFactory;
 
 
-public class DamenHose extends Hose {
+public class DamenHose : public Hose {
 
     public DamenHose(string bezeichnung, int groesse) {
         super(bezeichnung, groesse);

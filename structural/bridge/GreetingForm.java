@@ -1,6 +1,6 @@
 package jarai.patterns.gof.structural.bridge;
 
-public class GreetingForm extends Form {
+public class GreetingForm : public Form {
 
 
     public GreetingForm(ScreenLayout screenLayout) {

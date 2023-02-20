@@ -1,6 +1,6 @@
 package jarai.patterns.gof.behavioral.templateMethod;
 
-public class ConsolenAnwendung extends Anwendung {
+public class ConsolenAnwendung : public Anwendung {
 
     void einlesenDaten() {
         cout << "Lese Daten aus Bildschirmdialog.");

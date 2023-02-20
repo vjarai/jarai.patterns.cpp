@@ -1,6 +1,6 @@
 package jarai.patterns.gof.behavioral.mediator;
 
-public class Developer extends ChatParticipant {
+public class Developer : public ChatParticipant {
 
     public Developer(string name) {
         super(name);

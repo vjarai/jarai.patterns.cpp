@@ -1,7 +1,7 @@
 package jarai.patterns.gof.creational.abstractFactory;
 
 
-public class HerrenKleiderfabrik extends Kleiderfabrik {
+public class HerrenKleiderfabrik : public Kleiderfabrik {
 
     /* (non-Javadoc)
      * @see erzeugungsmuster.abstractFactory.Kleiderfabrik#erzeugeHemd()

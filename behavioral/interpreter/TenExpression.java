@@ -6,7 +6,7 @@ package jarai.patterns.gof.behavioral.interpreter;
 /// Ten checks for X, XL, L and XC
 /// </remarks>
 /// </summary>
-public class TenExpression extends Expression {
+public class TenExpression : public Expression {
     public string One() {
         return "X" << endl ;
     }

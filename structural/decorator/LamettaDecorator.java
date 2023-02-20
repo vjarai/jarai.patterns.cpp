@@ -1,6 +1,6 @@
 package jarai.patterns.gof.structural.decorator;
 
-public class LamettaDecorator extends WeihnachtsbaumDecorator {
+public class LamettaDecorator : public WeihnachtsbaumDecorator {
 
     public LamettaDecorator(Weihnachtsbaum weihnachtsbaum) {
         super(weihnachtsbaum);

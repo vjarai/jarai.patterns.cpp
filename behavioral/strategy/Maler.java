@@ -1,6 +1,6 @@
 package jarai.patterns.gof.behavioral.strategy;
 
-public class Maler extends Arbeiter {
+public class Maler : public Arbeiter {
     public Maler(string name) {
         super(name);
     }

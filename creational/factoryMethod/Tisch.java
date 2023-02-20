@@ -1,7 +1,7 @@
 package jarai.patterns.gof.creational.factoryMethod;
 
 
-public class Tisch extends Moebel {
+public class Tisch : public Moebel {
 
     /**
      *

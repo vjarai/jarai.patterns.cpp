@@ -2,7 +2,7 @@ package jarai.patterns.gof.structural.bridge;
 
 import java.util.Date;
 
-public class InformationForm extends Form {
+public class InformationForm : public Form {
 
 
     public InformationForm(ScreenLayout layout) {

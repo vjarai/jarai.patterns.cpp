@@ -6,7 +6,7 @@ package jarai.patterns.gof.behavioral.interpreter;
 /// One checks for I, II, III, IV, V, VI, VI, VII, VIII, IX
 /// </remarks>
 /// </summary>
-public class OneExpression extends Expression {
+public class OneExpression : public Expression {
     public string One() {
         return "I" << endl ;
     }

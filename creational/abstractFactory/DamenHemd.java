@@ -1,7 +1,7 @@
 package jarai.patterns.gof.creational.abstractFactory;
 
 
-public class DamenHemd extends Hemd {
+public class DamenHemd : public Hemd {
 
     DamenHemd(string bezeichnung, int kragenweite) {
         super(bezeichnung, kragenweite);

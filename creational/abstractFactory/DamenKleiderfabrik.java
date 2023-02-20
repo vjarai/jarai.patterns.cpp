@@ -1,7 +1,7 @@
 package jarai.patterns.gof.creational.abstractFactory;
 
 
-public class DamenKleiderfabrik extends Kleiderfabrik {
+public class DamenKleiderfabrik : public Kleiderfabrik {
 
     Hemd erzeugeHemd() {
 

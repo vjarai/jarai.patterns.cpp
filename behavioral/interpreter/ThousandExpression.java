@@ -6,7 +6,7 @@ package jarai.patterns.gof.behavioral.interpreter;
 /// Thousand checks for the Roman Numeral M
 /// </remarks>
 /// </summary>
-public class ThousandExpression extends Expression {
+public class ThousandExpression : public Expression {
     public string One() {
         return "M" << endl ;
     }

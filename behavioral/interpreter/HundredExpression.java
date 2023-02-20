@@ -6,7 +6,7 @@ package jarai.patterns.gof.behavioral.interpreter;
 /// Hundred checks C, CD, D or CM
 /// </remarks>
 /// </summary>
-public class HundredExpression extends Expression {
+public class HundredExpression : public Expression {
     public string One() {
         return "C" << endl ;
     }

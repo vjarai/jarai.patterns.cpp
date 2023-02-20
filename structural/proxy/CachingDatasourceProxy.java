@@ -3,7 +3,7 @@ package jarai.patterns.gof.structural.proxy;
 
 import java.util.Hashtable;
 
-public class CachingDatasourceProxy extends Datasource {
+public class CachingDatasourceProxy : public Datasource {
 
     private final Datasource datasource;
     private final Hashtable<Integer, string> cache = new Hashtable<>();

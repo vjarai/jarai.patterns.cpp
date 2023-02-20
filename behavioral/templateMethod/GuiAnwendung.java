@@ -3,7 +3,7 @@ package jarai.patterns.gof.behavioral.templateMethod;
 import javax.swing.*;
 
 
-public class GuiAnwendung extends Anwendung {
+public class GuiAnwendung : public Anwendung {
 
     void einlesenDaten() {
         x = Integer.parseInt(JOptionPane.showInputDialog("Bitte x eingeben"));

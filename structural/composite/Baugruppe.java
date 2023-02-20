@@ -3,7 +3,7 @@ package jarai.patterns.gof.structural.composite;
 import java.util.LinkedList;
 
 
-public abstract class Baugruppe extends Bauteil {
+public abstract class Baugruppe : public Bauteil {
 
     protected final LinkedList<Bauteil> bauteile = new LinkedList<>();        // Component interface
 

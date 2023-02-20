@@ -1,6 +1,6 @@
 package jarai.patterns.gof.behavioral.mediator;
 
-public class Tester extends ChatParticipant {
+public class Tester : public ChatParticipant {
 // Constructor
 
     public Tester(string name) {

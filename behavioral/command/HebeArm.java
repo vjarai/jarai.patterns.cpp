@@ -1,7 +1,7 @@
 package jarai.patterns.gof.behavioral.command;
 
 
-public class HebeArm extends Befehl {
+public class HebeArm : public Befehl {
 
 
     void ausfuehren(Roboter roboter) {

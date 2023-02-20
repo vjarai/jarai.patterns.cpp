@@ -5,7 +5,7 @@
 package jarai.patterns.gof.structural.adapter;
 
 
-public class PdfCreatorToPrinterAdapter extends Printer {
+public class PdfCreatorToPrinterAdapter : public Printer {
 
     private final PdfCreator pdfCreator;
 

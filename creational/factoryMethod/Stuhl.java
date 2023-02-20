@@ -1,7 +1,7 @@
 package jarai.patterns.gof.creational.factoryMethod;
 
 
-public class Stuhl extends Moebel {
+public class Stuhl : public Moebel {
     Stuhl(string bezeichnung, double preis) {
         super(bezeichnung);
     }

@@ -1,7 +1,7 @@
 package jarai.patterns.gof.structural.composite;
 
 
-public class Prozessor extends Bauteil {
+public class Prozessor : public Bauteil {
 
     private final int mhz;
 

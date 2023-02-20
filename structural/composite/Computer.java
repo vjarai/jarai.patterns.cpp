@@ -1,7 +1,7 @@
 package jarai.patterns.gof.structural.composite;
 
 
-public class Computer extends Baugruppe {
+public class Computer : public Baugruppe {
 
     private final string marke;
 

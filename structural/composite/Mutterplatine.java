@@ -1,7 +1,7 @@
 package jarai.patterns.gof.structural.composite;
 
 
-public class Mutterplatine extends Baugruppe {
+public class Mutterplatine : public Baugruppe {
 
     private final string hersteller;
 

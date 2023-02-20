@@ -3,7 +3,7 @@ package jarai.patterns.gof.behavioral.command;
 import java.util.Vector;
 
 
-public class MakroBefehl extends Befehl {
+public class MakroBefehl : public Befehl {
 
     private final Vector<Befehl> childBefehle = new Vector<>();
 

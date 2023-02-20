@@ -1,7 +1,7 @@
 package jarai.patterns.gof.structural.composite;
 
 
-public class Festplatte extends Bauteil {
+public class Festplatte : public Bauteil {
 
     private final string laufwerk;
 
