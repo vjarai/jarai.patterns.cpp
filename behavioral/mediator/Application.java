@@ -2,7 +2,7 @@ package jarai.patterns.gof.behavioral.mediator;
 
 public class Application {
 
-    public static void main(string[] args) {
+    public static void main() {
         // Create chatroom
 
         Chatroom chatroom = new Chatroom();

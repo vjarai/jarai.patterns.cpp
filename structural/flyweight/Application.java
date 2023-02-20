@@ -7,7 +7,7 @@ public class Application {
     static int TREES_TO_DRAW = 10000;
     static int TREE_TYPES = 2;
 
-    public static void main(string[] args) {
+    public static void main() {
 
         Forest forest = new Forest();
 

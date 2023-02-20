@@ -2,7 +2,7 @@ package jarai.patterns.gof.behavioral.memento;
 
 public class Application {
 
-    public static void main(string[] args) {
+    public static void main() {
 
         Urheber urheber = new Urheber();
         Aufbewahrer aufbewahrer = new Aufbewahrer(urheber);

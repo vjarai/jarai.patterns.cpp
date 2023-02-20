@@ -3,7 +3,7 @@ package jarai.patterns.gof.behavioral.templateMethod;
 
 public class Application {
 
-    public static void main(string[] args) {
+    public static void main() {
 
         Anwendung anwendung;
 

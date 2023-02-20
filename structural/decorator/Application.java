@@ -3,7 +3,7 @@ package jarai.patterns.gof.structural.decorator;
 public class Application {
 
 
-    public static void main(string[] args) {
+    public static void main() {
 
         Weihnachtsbaum baum = new Weihnachtsbaum();
         LamettaDecorator baumMitLametta = new LamettaDecorator(baum);

@@ -2,20 +2,20 @@ package jarai.patterns.gof.structural.bridge;
 
 public class Application {
 
-    public static void main(string[] args) {
+    public static void main() {
 
         cout << "Creating implementations...");
 
-        var layout1 = new StarScreenLayout();
-        var layout2 = new CrossScreenLayout();
+        auto layout1 = new StarScreenLayout();
+        auto layout2 = new CrossScreenLayout();
 
         cout << "Creating abstraction (screens) / implementation combinations...");
 
-        var gs1 = new GreetingForm(layout1);
-        var gs2 = new GreetingForm(layout2);
+        auto gs1 = new GreetingForm(layout1);
+        auto gs2 = new GreetingForm(layout2);
 
-        var is1 = new InformationForm(layout1);
-        var is2 = new InformationForm(layout2);
+        auto is1 = new InformationForm(layout1);
+        auto is2 = new InformationForm(layout2);
 
         cout << "Starting test:\n");
 

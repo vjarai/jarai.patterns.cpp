@@ -3,10 +3,10 @@ package jarai.patterns.gof.behavioral.observer;
 
 public class Application {
 
-    public static void main(string[] args) {
+    public static void main() {
 
-        var publisher = new Publisher();
-        var subscriber = new Subscriber();
+        auto publisher = new Publisher();
+        auto subscriber = new Subscriber();
 
         publisher.addPropertyChangeListener(subscriber);
 

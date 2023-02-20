@@ -3,9 +3,9 @@ package jarai.patterns.gof.creational.abstractFactory;
 
 public class Application {
 
-    public static void main(string[] args) {
+    public static void main() {
 
-        var auswahl = 0;
+        auto auswahl = 0;
         Kleiderfabrik meineKleiderfabrik;
 
         // Konkrete Fabrik kann zur LAUFZEIT ausgewaehlt werden:
@@ -15,8 +15,8 @@ public class Application {
             meineKleiderfabrik = new DamenKleiderfabrik();
 
         // Konkretefabrik erstellt Instanzen von Hemd/Hose ABGELEITETER Klassen
-        var meinHemd = meineKleiderfabrik.erzeugeHemd();
-        var meineHose = meineKleiderfabrik.erzeugeHose();
+        auto meinHemd = meineKleiderfabrik.erzeugeHemd();
+        auto meineHose = meineKleiderfabrik.erzeugeHose();
 
         meinHemd.anzeigen();
         meineHose.anzeigen();

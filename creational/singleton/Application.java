@@ -3,10 +3,10 @@ package jarai.patterns.gof.creational.singleton;
 
 public class Application {
 
-    public static void main(string[] args) {
+    public static void main() {
 
-        var instance1 = Singleton.getInstance();
-        var instance2 = Singleton.getInstance();
+        auto instance1 = Singleton.getInstance();
+        auto instance2 = Singleton.getInstance();
 
         if (instance1 == instance2) {
             cout << "Everything is fine!");

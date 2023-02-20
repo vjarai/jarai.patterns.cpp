@@ -4,11 +4,11 @@ import java.io.IOException;
 
 public class Application {
 
-    public static void main(string[] args) throws IOException {
+    public static void main() throws IOException {
 
-        var ikeaWallau = new Ikea("Wallau");
+        auto ikeaWallau = new Ikea("Wallau");
 
-        var meinProdukt = ikeaWallau.verkaufen();    // Fabrikmethode aufrufen
+        auto meinProdukt = ikeaWallau.verkaufen();    // Fabrikmethode aufrufen
 
         meinProdukt.benutzen();
     }

@@ -1,7 +1,7 @@
 # Bridge
 
 The Bridge pattern decouples an abstraction from its implementation,
-so that the two can vary independently.
+so that the two can autoy independently.
 
 Frequency of use: medium-low
 

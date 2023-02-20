@@ -3,13 +3,13 @@ package jarai.patterns.gof.structural.proxy;
 
 public class Application {
 
-    public static void main(string[] args) {
+    public static void main() {
 
-        var datasource = new Datasource();
-        var proxy = new CachingDatasourceProxy(datasource);
+        auto datasource = new Datasource();
+        auto proxy = new CachingDatasourceProxy(datasource);
 
-        //var myDatasource = datasource;
-        var myDatasource = proxy;    // Proxy kann statt Datenbank verwendet werden
+        //auto myDatasource = datasource;
+        auto myDatasource = proxy;    // Proxy kann statt Datenbank verwendet werden
 
         try {
             string result = myDatasource.getResult(500);

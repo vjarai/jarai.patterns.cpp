@@ -1,17 +1,17 @@
 package jarai.patterns.gof.behavioral.visitor;
 
 public class Application {
-    public static void main(string[] args) {
+    public static void main() {
 
-        var fuhrpark = new Fuhrpark();
+        auto fuhrpark = new Fuhrpark();
 
         fuhrpark.add(new Lkw());
         fuhrpark.add(new Bus());
 
-        var gutachter = new GutachterVisitor();
+        auto gutachter = new GutachterVisitor();
         fuhrpark.acceptVisitor(gutachter);
 
-        var reinigungskraft = new ReinigungsVisitor();
+        auto reinigungskraft = new ReinigungsVisitor();
         fuhrpark.acceptVisitor(reinigungskraft);
 
     }

@@ -11,7 +11,7 @@ class TelefonTests {
     @Test
     public void Kann_abheben_waehlen_sprechen_sprechen_auflegen() {
         // Arrange
-        var telefon = new Telefon();
+        auto telefon = new Telefon();
 
         // Act
         telefon.Abheben();
@@ -25,7 +25,7 @@ class TelefonTests {
     @Test
     public void Kann_annehmenAnruf_auflegen() {
         // Arrange
-        var telefon = new Telefon();
+        auto telefon = new Telefon();
 
         // Act
         telefon.AnnehmenAnruf();
@@ -36,7 +36,7 @@ class TelefonTests {
     @Test
     public void Kann_abheben_auflegen() {
         // Arrange
-        var telefon = new Telefon(TelefonZustand.Abgehoben);
+        auto telefon = new Telefon(TelefonZustand.Abgehoben);
 
         // Act
         telefon.Auflegen();
@@ -46,7 +46,7 @@ class TelefonTests {
     @Test
     public void Kann_NICHT_im_Zustand_Abgehoben_sprechen() {
         // Arrange
-        var telefon = new Telefon(TelefonZustand.Abgehoben);
+        auto telefon = new Telefon(TelefonZustand.Abgehoben);
 
         // Act
 
@@ -58,7 +58,7 @@ class TelefonTests {
     @Test
     public void Kann_NICHT_im_Zustand_Verbunden_waehlen() {
         // Arrange
-        var telefon = new Telefon(TelefonZustand.Verbunden);
+        auto telefon = new Telefon(TelefonZustand.Verbunden);
 
         // Act
 
@@ -69,7 +69,7 @@ class TelefonTests {
     @Test
     public void Kann_NICHT_im_Zustand_Verbunden_abheben() {
         // Arrange
-        var telefon = new Telefon(TelefonZustand.Verbunden);
+        auto telefon = new Telefon(TelefonZustand.Verbunden);
 
         // Act
 
@@ -80,7 +80,7 @@ class TelefonTests {
     @Test
     public void Kann_NICHT_im_Zustand_Verbunden_annehmenAnruf() {
         // Arrange
-        var telefon = new Telefon(TelefonZustand.Verbunden);
+        auto telefon = new Telefon(TelefonZustand.Verbunden);
 
         // Act
 
@@ -92,7 +92,7 @@ class TelefonTests {
     @Test
     public void Kann_NICHT_im_Zustand_Abgehoben_annehmenAnruf() {
         // Arrange
-        var telefon = new Telefon(TelefonZustand.Abgehoben);
+        auto telefon = new Telefon(TelefonZustand.Abgehoben);
 
         // Act
 
@@ -103,7 +103,7 @@ class TelefonTests {
     @Test
     public void Kann_NICHT_im_Zustand_Aufgelegt_waehlen() {
         // Arrange
-        var telefon = new Telefon(TelefonZustand.Aufgelegt);
+        auto telefon = new Telefon(TelefonZustand.Aufgelegt);
 
         // Act
 
@@ -114,7 +114,7 @@ class TelefonTests {
     @Test
     public void Kann_NICHT_im_Zustand_Aufgelegt_sprechen() {
         // Arrange
-        var telefon = new Telefon(TelefonZustand.Aufgelegt);
+        auto telefon = new Telefon(TelefonZustand.Aufgelegt);
 
         // Act
 
@@ -126,7 +126,7 @@ class TelefonTests {
     @Test
     public void Kann_NICHT_im_Zustand_Aufgelegt_auflegen() {
         // Arrange
-        var telefon = new Telefon(TelefonZustand.Aufgelegt);
+        auto telefon = new Telefon(TelefonZustand.Aufgelegt);
 
         // Act
 
@@ -138,7 +138,7 @@ class TelefonTests {
     @Test
     public void Kann_NICHT_im_Zustand_Abgehoben_abheben() {
         // Arrange
-        var telefon = new Telefon(TelefonZustand.Abgehoben);
+        auto telefon = new Telefon(TelefonZustand.Abgehoben);
 
         // Act
 

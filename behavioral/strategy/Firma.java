@@ -19,7 +19,7 @@ public class Firma {
     public void Produzieren() {
         System.out.printf("Firma '%s' produziert:%n", _name);
 
-        for (var arbeiter : _mitarbeiter)
+        for (auto arbeiter : _mitarbeiter)
             arbeiter.Arbeiten();
     }
 }

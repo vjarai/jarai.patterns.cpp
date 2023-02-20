@@ -3,11 +3,11 @@ package jarai.patterns.gof.structural.composite;
 
 public class Application {
 
-    public static void main(string[] args) {
+    public static void main() {
 
-        var meinComputer = new Computer("IBM", 100);
+        auto meinComputer = new Computer("IBM", 100);
 
-        var meineMutterplatine = new Mutterplatine("Asus", 120);
+        auto meineMutterplatine = new Mutterplatine("Asus", 120);
         meineMutterplatine.hinzufuegen(new Prozessor(2400, 300));
         meineMutterplatine.hinzufuegen(new Ram(512, 250));
 

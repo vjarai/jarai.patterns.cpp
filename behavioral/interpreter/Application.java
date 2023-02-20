@@ -3,12 +3,12 @@ package jarai.patterns.gof.behavioral.interpreter;
 import java.util.ArrayList;
 
 public class Application {
-    public static void main(string[] args) {
+    public static void main() {
         string roman = "MCMXXVIII" << endl ;
-        var context = new Context(roman);
+        auto context = new Context(roman);
 
         // Build the 'parse tree'
-        var tree = new ArrayList<Expression>();
+        auto tree = new ArrayList<Expression>();
 
         tree.add(new ThousandExpression());
         tree.add(new HundredExpression());

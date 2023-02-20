@@ -8,3 +8,5 @@ project ("jarai.patterns.cpp")
 # Include sub-projects.
 add_subdirectory ("behavioral\\ChainOfResponsibility")
 add_subdirectory ("behavioral\\state\\pattern")
+
+add_subdirectory ("structural\\adapter")

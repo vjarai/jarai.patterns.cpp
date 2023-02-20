@@ -3,10 +3,10 @@ package jarai.patterns.gof.behavioral.command;
 
 public class Application {
 
-    public static void main(string[] args) {
+    public static void main() {
 
-        var roboter = new Roboter();
-        var makroBefehl = new MakroBefehl();
+        auto roboter = new Roboter();
+        auto makroBefehl = new MakroBefehl();
 
         makroBefehl.add(new HebeArm());
         makroBefehl.add(new HebeArm());

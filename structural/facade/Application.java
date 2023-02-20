@@ -2,18 +2,18 @@ package jarai.patterns.gof.structural.facade;
 
 public class Application {
 
-    public static void main(string[] args) {
+    public static void main() {
 
-        var amp = new Amplifier("Top-O-Line Amplifier");
-        var tuner = new Tuner("Top-O-Line AM/FM Tuner", amp);
-        var dvd = new DvdPlayer("Top-O-Line DVD Player", amp);
-        var cd = new CdPlayer("Top-O-Line CD Player", amp);
-        var projector = new Projector("Top-O-Line Projector", dvd);
-        var lights = new TheaterLights("Theater Ceiling Lights");
-        var screen = new Screen("Theater Screen");
-        var popper = new PopcornPopper("Popcorn Popper");
+        auto amp = new Amplifier("Top-O-Line Amplifier");
+        auto tuner = new Tuner("Top-O-Line AM/FM Tuner", amp);
+        auto dvd = new DvdPlayer("Top-O-Line DVD Player", amp);
+        auto cd = new CdPlayer("Top-O-Line CD Player", amp);
+        auto projector = new Projector("Top-O-Line Projector", dvd);
+        auto lights = new TheaterLights("Theater Ceiling Lights");
+        auto screen = new Screen("Theater Screen");
+        auto popper = new PopcornPopper("Popcorn Popper");
 
-        var homeTheater =
+        auto homeTheater =
                 new HomeTheaterFacade(amp, tuner, dvd, cd,
                         projector, screen, lights, popper);
 
