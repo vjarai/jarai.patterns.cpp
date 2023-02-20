@@ -6,7 +6,6 @@
 
 class Baugruppe : public Bauteil
 {
-
 protected:
 	std::vector<const Bauteil*> bauteile;
 
@@ -20,14 +19,14 @@ public:
 	{
 		Bauteil::anzeigen();
 
-		for (const auto bauteil : bauteile) {
+		for (const auto bauteil : bauteile)
+		{
 			bauteil->anzeigen();
 		}
-
 	}
 
-	void hinzufuegen(const Bauteil& bauteil) {
+	void hinzufuegen(const Bauteil& bauteil)
+	{
 		bauteile.push_back(&bauteil);
 	}
-
 };

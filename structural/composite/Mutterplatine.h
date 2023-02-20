@@ -1,12 +1,12 @@
 #pragma once
 
-class Mutterplatine : public Baugruppe {
-
+class Mutterplatine : public Baugruppe
+{
 	std::string hersteller;
 
 public:
 	Mutterplatine(std::string hersteller, double preis)
-		:Baugruppe(preis), hersteller(hersteller)
+		: Baugruppe(preis), hersteller(hersteller)
 	{
 	}
 
@@ -15,5 +15,4 @@ public:
 		std::cout << "Mutterplatine von " + hersteller;
 		Baugruppe::anzeigen();
 	}
-
 };
