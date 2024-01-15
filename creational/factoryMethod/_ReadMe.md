@@ -5,4 +5,4 @@ but let subclasses decide which class to instantiate.
 
 This pattern lets a class defer instantiation to subclasses.
 
-Frequency of use: high
+### Frequency of use: high

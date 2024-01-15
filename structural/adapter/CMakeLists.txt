@@ -6,7 +6,7 @@
 add_executable (
 Adapter 
 "Application.cpp" 
-)
+ "_ReadMe.md")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET ChainOfResponsibility PROPERTY CXX_STANDARD 20)

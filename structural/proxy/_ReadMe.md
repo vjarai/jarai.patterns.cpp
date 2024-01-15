@@ -5,7 +5,7 @@ The Proxy pattern provides a surrogate or placeholder for another object to cont
 Although decorators can have similar implementations as proxies, decorators have a different purpose.
 A decorator adds one or more responsibilities to an object, whereas a proxy controls access to an object.
 
-Frequency of use: medium-high
+### Frequency of use: medium-high
 
 ## Proxy Examples:
 

@@ -4,4 +4,4 @@ The Mediator pattern defines an object that encapsulates how a set of objects in
 Mediator promotes loose coupling by keeping objects from referring to each other explicitly,
 and it lets you autoy their interaction independently.
 
-Frequency of use: medium-low
+### Frequency of use: medium-low

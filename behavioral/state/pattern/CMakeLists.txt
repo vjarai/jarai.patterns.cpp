@@ -12,7 +12,7 @@ add_executable (State
 "Aufgelegt.h"
 "Aufgelegt.cpp"
  "Verbunden.cpp" 
- "Abgehoben.cpp")
+ "Abgehoben.cpp" "_ReadMe.md")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET ChainOfResponsibility PROPERTY CXX_STANDARD 20)

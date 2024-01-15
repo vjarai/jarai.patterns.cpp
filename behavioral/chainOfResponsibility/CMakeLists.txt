@@ -4,7 +4,7 @@
 
 # Add source to this project's executable.
 add_executable (ChainOfResponsibility "Application.cpp" 
-"Mitarbeiter.h" "Buchhalter.h" "Verkaeufer.h" "Putzfrau.h" "Firma.h")
+"Mitarbeiter.h" "Buchhalter.h" "Verkaeufer.h" "Putzfrau.h" "Firma.h" "_ReadMe.md")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET ChainOfResponsibility PROPERTY CXX_STANDARD 20)
